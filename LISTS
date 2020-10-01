@@ -1,0 +1,21 @@
+x=int(input())
+y=int(input())
+z=int(input())
+n=int(input())
+l1,l2,l3,new=[],[],[],[]
+for i in range(x+1):
+	l1.append(i)
+for i in range(y+1):
+	l2.append(i)
+for i in range(z+1):
+	l3.append(i)
+for i in range(x+1):
+	for j in range(y+1):
+		for k in range(z+1):
+			arr=l1[i:i+1]+l2[j:j+1]+l3[k:k+1]
+			if sum(arr)==n:
+				continue
+			new.append(arr)
+print(new)	
+new.sort()
+print(new)
