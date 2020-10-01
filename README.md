@@ -1,7 +1,7 @@
 # Hackerrank-solutions
 
 This repository contains the solutions of Problems Available on HackerRank...<br>
-Language Used : C++ <br><br>
+Language Used : C++ and Python <br><br>
 Connect with me :<br><br>
 
 LinkedIN : https://www.linkedin.com/in/krishna6431/<br><br>
