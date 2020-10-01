@@ -1,0 +1,12 @@
+import numpy
+n,m=[int(i) for i in input().split()]
+arr=numpy.array([ list(map(int,input().split())) for num in range(n) ])
+print(arr)
+soln1=numpy.mean(arr, axis=1)
+soln2=numpy.var(arr, axis=0)
+soln3=numpy.std(arr, axis=None)
+print(soln1)
+print(soln2)
+print(round(soln3,11))
+
+
