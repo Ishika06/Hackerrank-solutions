@@ -1,0 +1,18 @@
+n=int(input())
+for i in range(n):
+    str1=input()
+    s1=""
+    s2=""
+    for j in range(len(str1)):
+        if j%2==0:
+            s1=s1+str1[j]
+        else:
+            s2=s2+str1[j]
+    print(s1+" "+s2)
+print(bin(n),hex(n),oct(n))
+print(len(bin(n)),len(bin(n))-2)
+print(type(bin(n)))
+print(bin(n)[2:].rjust(5," "))
+
+
+            
